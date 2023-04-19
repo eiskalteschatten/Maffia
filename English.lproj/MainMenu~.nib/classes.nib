@@ -1,0 +1,77 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                createNewProfile = id; 
+                deleteProfile = id; 
+                loadProfile = id; 
+                manageTableViewSelected = id; 
+                renameProfile = id; 
+                tableViewSelected = id; 
+            }; 
+            CLASS = DataController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bankDisplay = id; 
+                cashDisplay = id; 
+                city = id; 
+                cityDisplay = id; 
+                deleteProfileButton = id; 
+                healthDisplay = id; 
+                heatDisplay = id; 
+                loadProfile = id; 
+                loadingBar = id; 
+                loadingText = id; 
+                loadingWindow = id; 
+                mainWindow = id; 
+                name = id; 
+                newProfileWindow = id; 
+                profileList = id; 
+                profileWindow = id; 
+                renameProfileButton = id; 
+                startWindow = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {depositItem = id; depositMoney = id; withdrawItem = id; withdrawMoney = id; }; 
+            CLASS = FinanceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {depositItem = id; depositMoney = id; withdrawItem = id; withdrawMoney = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MainWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {profileList = id; }; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {
+            ACTIONS = {getHelp = id; }; 
+            CLASS = NewProfile; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {
+            CLASS = ProfileList; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {profileList = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = StartWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {profileList = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {changePanes = id; orderFrontPrefsPanel = id; }; 
+            CLASS = UKPrefsPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tabView = NSTabView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
